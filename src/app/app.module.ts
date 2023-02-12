@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 
 import { HttpClientModule} from '@angular/common/http';
 import { SpinnerComponent } from './spinner/spinner.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    TestComponent
   ],
   imports: [
     HttpClientModule,
