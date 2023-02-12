@@ -16,9 +16,10 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.http.get('https://jsonplaceholder.typicode.com/users').subscribe((data)=>{
       this.users = data;
-      setTimeout(()=>{
-        this.loading = false;
-      }, 4000);
+      this.loading = false;
+      //setTimeout(()=>{
+      //  this.loading = false;
+      //}, 4000);
     })
   }
 
