@@ -1,1 +1,9 @@
 <p>home works!</p>
+
+<div class="data" *ngIf="!loading">
+  !loading
+</div>
+
+<div class="loading" *ngIf="loading">
+  <i class="fa-solid fa-spiner">loading</i>
+</div>
